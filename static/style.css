@@ -1,0 +1,194 @@
+* {
+
+box-sizing:border-box;
+
+font-family:
+"JetBrains Mono",
+"Fira Code",
+monospace;
+
+}
+
+
+
+body {
+
+margin:0;
+
+background:#000;
+
+color:#00ff9c;
+
+min-height:100vh;
+
+}
+
+
+
+.container {
+
+width:95%;
+
+max-width:1300px;
+
+margin:auto;
+
+padding:30px;
+
+}
+
+
+
+.title {
+
+border:1px solid #00ff9c;
+
+padding:20px;
+
+text-align:center;
+
+font-size:35px;
+
+letter-spacing:5px;
+
+box-shadow:
+0 0 10px #00ff9c;
+
+}
+
+
+
+.panel {
+
+margin-top:25px;
+
+padding:20px;
+
+border:1px solid #00ff9c;
+
+background:#050505;
+
+box-shadow:
+0 0 15px #003b24;
+
+}
+
+
+
+input {
+
+background:#000;
+
+border:1px solid #00ff9c;
+
+padding:10px;
+
+color:#00ff9c;
+
+}
+
+
+
+button,
+.file-button {
+
+background:#000;
+
+color:#00ff9c;
+
+border:1px solid #00ff9c;
+
+padding:12px 25px;
+
+cursor:pointer;
+
+font-family:inherit;
+
+}
+
+
+
+button:hover,
+.file-button:hover {
+
+background:#003b24;
+
+}
+
+
+
+.header {
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+
+
+.output {
+
+height:650px;
+
+overflow:auto;
+
+}
+
+
+
+#ascii {
+
+font-size:8px;
+
+line-height:8px;
+
+white-space:nowrap;
+
+font-family:monospace;
+
+}
+
+
+
+h3 {
+
+margin-top:0;
+
+}
+
+
+
+.upload-box {
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+}
+
+
+
+#fileName {
+
+border:1px solid #00ff9c;
+
+padding:12px 20px;
+
+min-width:220px;
+
+max-width:300px;
+
+overflow:hidden;
+
+text-overflow:ellipsis;
+
+white-space:nowrap;
+
+color:#00ff9c;
+
+}

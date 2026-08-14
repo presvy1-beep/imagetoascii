@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>ASCII Studio</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<div class="title">
+
+[ ASCII STUDIO ]
+
+</div>
+
+
+
+<div class="panel">
+
+
+<h3>
+UPLOAD IMAGE
+</h3>
+
+
+<div class="upload-box">
+
+
+<label for="imageInput" class="file-button">
+
+[ SELECT IMAGE ]
+
+</label>
+
+
+<input 
+type="file"
+id="imageInput"
+accept="image/*"
+hidden>
+
+
+<span id="fileName">
+NO FILE SELECTED
+</span>
+
+
+<button onclick="convertImage()">
+GENERATE
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+<div class="panel output">
+
+
+<div class="header">
+
+<h3>
+ASCII OUTPUT
+</h3>
+
+
+<button onclick="copyASCII()">
+COPY
+</button>
+
+
+</div>
+
+
+
+<div id="ascii">
+
+Waiting for image...
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+<script src="/static/script.js"></script>
+
+
+</body>
+
+</html>
